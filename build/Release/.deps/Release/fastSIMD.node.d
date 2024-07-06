@@ -1,0 +1,1 @@
+cmd_Release/fastSIMD.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=11.0 -arch arm64 -L./Release -stdlib=libc++  -o Release/fastSIMD.node Release/obj.target/fastSIMD/c/fastSIMD.o Release/nothing.a 

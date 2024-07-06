@@ -1,0 +1,18 @@
+{
+  "name": "habra_palindromes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "node:env": "node --env-file=.env",
+    "seed": "npm run node:env seed.js",
+    "start": "npm run node:env index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "node-addon-api": "^8.0.0"
+  }
+}
