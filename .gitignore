@@ -90,3 +90,5 @@ yarn-error.log
 .idea
 
 strings.txt
+
+./build
